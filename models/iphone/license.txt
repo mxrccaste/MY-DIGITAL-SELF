@@ -1,0 +1,11 @@
+Model Information:
+* title:	iphone 14
+* source:	https://sketchfab.com/3d-models/iphone-14-adc4ea80bf314a14b8addcb687e6506a
+* author:	Asher Dipprey (https://sketchfab.com/asher333)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "iphone 14" (https://sketchfab.com/3d-models/iphone-14-adc4ea80bf314a14b8addcb687e6506a) by Asher Dipprey (https://sketchfab.com/asher333) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
