@@ -17,7 +17,7 @@
 /* Estilos para pantallas medianas (por ejemplo, laptops) */
 @media only screen and (max-width: 1199px) {
   #titulo {
-    font-size: 80px;
+    font-size: 50px;
   }
   #text-behind, #text-front, #text-behind-blur {
     font-size: 120px;
@@ -30,7 +30,7 @@
 /* Estilos para pantallas pequeñas (por ejemplo, tablets) */
 @media only screen and (max-width: 991px) {
   #titulo {
-    font-size: 60px;
+    font-size: 50px;
   }
   #text-behind, #text-front, #text-behind-blur {
     font-size: 100px;
@@ -59,12 +59,16 @@ html, body {
 }
 
 #titulo {
-  position: initial;
-  font-size: 100px;
-  font-family: 'Roboto', sans-serif;
-  z-index: 2;
-  font-weight: bold;
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 4%;
+  left: 0;
+  right: 0;
+  bottom: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 #container3D {
@@ -117,13 +121,21 @@ html, body {
   z-index: 3;
 }
 
-.botonprincipal {
+
+#btn-container {
   display: flex;
   justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 70%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
 }
 
 #btn {
-  margin: 100px;
   padding: 8px 16px;
   border: 2px solid white;
   outline: none;
@@ -133,9 +145,8 @@ html, body {
   z-index: 4;
   border-radius: 17px;
   font-family: 'Open Sans', sans-serif;
-  top: calc(50% + 25%);
-  left: 50%;
 }
+
 #btn::after {
   content: "";
   z-index: -1;
